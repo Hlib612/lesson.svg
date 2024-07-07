@@ -2,5 +2,24 @@
     list-style-type: none;
 }
 .icons-list-item-svg{
-    fill: rgb(123, 255, 0);
+    fill: rgb(255, 0, 38);
+}
+.icons-list-item{
+    padding: 10px;
+    background-color: transparent;
+    width: 20px;
+    border-radius: 50%;
+}
+.icons-list-item-svg:hover{
+    fill: red;
+}
+.icons-list-item:hover .icons-list-item-svg{
+    fill: rgb(255, 234, 0);
+    fill-opacity: 0.5;
+    stroke: darkgreen;
+    stroke-width: 3px;
+}
+.icons-list-item:hover{
+    background-color: aqua;
+    border: 2px solid black;
 }
